@@ -1,0 +1,472 @@
+h1 
+    {
+        color: rgb(22, 29, 20);
+        font-size: 30pt;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom:0px;
+        margin-top:0px;
+        margin-left: 30px;
+        
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 2s steps(40), blink-caret 0.75s step-end infinite;
+          }
+        
+          @keyframes typing {
+            from {
+              width: 0;
+            }
+            to {
+              width: 100%;
+            }
+          }
+        
+          @keyframes blink-caret {
+            from,
+            to {
+              border-right-color: transparent;
+            }
+            50% {
+              border-right-color: #333;
+            }
+          }
+
+
+a
+    {
+        font-size: 20pt;
+        padding-right: 10px;
+        text-decoration: none;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgba(14, 32, 13, 0.785);
+        font-weight: 600;
+        height: 10px;
+        margin-bottom: 40px;
+        margin-left: 30px;
+    }
+
+a:hover
+    {
+        color: rgb(50, 82, 43);
+        background-color: #8dd16e;
+    }
+
+
+.slider 
+    {
+        position: relative;
+        width: 100%;
+        height: 100px;
+        background-color: #b7cf7f;
+    }
+
+.menu 
+    {
+        position: relative;
+        padding: 20px;
+        margin-top: 15px;
+        margin-bottom: 20px; 
+        background-color: #8dd16e;
+    }
+
+
+.footer
+    { 
+        width: 100%;
+        height: 30px;
+        background-color: rgb(210, 233, 181);
+        float: left;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 70%;
+        font-family: 'Times New Roman', Times, serif;
+        border: 1px solid #1c241c;
+        margin-top: 50px;
+        margin-left: 2%;
+        font-size: 15pt;
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border: 1px solid #9db87f;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    th {
+        background-color: rgb(141, 172, 144);
+        color: #333;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    tr:nth-child(even) {
+        background-color: #9db87f;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    tr:hover {
+        background-color: #9db87f;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    caption {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: 12px;
+    }
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+
+  .hero {
+  
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #555;
+  }
+  
+  .about {
+    padding: 50px;
+  }
+  
+  .AboutMe {
+    font-size: 24px;
+    margin-bottom: 50px;
+  }
+  
+  .MyGallery {
+    padding: 50px;
+    background: #eef1eb;
+  }
+  
+  .MyGallery h2 {
+    font-size: 24px;
+    margin-bottom: 50px;
+  }
+  
+
+  .box1
+    {
+        width: 50%;
+        height: 250px;
+        float:right;
+    }  
+
+    .box2
+    {
+        width: 50%;
+        height: 450px;
+        float: left;
+    }
+
+    .box3
+    {
+        width: 50%;
+        height: 450px;
+        float: right;
+    }
+
+    .box4
+    {
+        width: 50%;
+        height: 250px;
+        float: left;
+    }
+
+  
+  
+  .Photo {
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+  }
+  
+  .Photo {
+    flex: 0 0 calc(33.33% - 20px);
+  background: #eef1eb;
+  padding: 0px;
+  margin-bottom: 100px;
+  }
+  
+  .Photo {
+    width: 50%;
+    height: 150px;
+    margin-bottom: 100px;
+    float: left;
+  }
+  
+  footer {
+    background:  #eef1eb;
+    color:  #eef1eb;
+    text-align: center;
+    padding: 20px;
+  }
+
+.biodatabox 
+    {
+        display: flex;
+        max-width: 800px;
+        margin: 0 auto;
+        padding-top: 70px;
+    }
+
+.biodatasection 
+    {
+        flex: 7;
+        text-align: center;
+        padding: 20px;
+        background-color:rgb(141, 172, 144);
+        border-radius: 6px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 13pt;
+    }
+
+.profilepicture
+    {
+        width: 180px; 
+        height: 180px;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+
+.socialmediasection 
+    {
+        flex: 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        background-color:#9db87f;
+        border-radius: 6px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     }
+
+.socialmediaicons 
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+.socialmediaicons img 
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #bdf1a4;
+    }
+    
+    .personalities {
+      background-color: #9db87f;
+      padding: 30px;
+      max-width: 600px;
+      margin: 0 auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .personalities h2 {
+      margin-bottom: 30px;
+      color: #0e0d0d;
+    }
+    
+    .personality-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .personality-list li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+    
+    .fa {
+      font-size: 24px;
+      color: #4caf50;
+      margin-right: 10px;
+    }
+    
+    .personality-name {
+      color: #070707;
+    }
+
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #93ff98;
+    }
+    
+    .languages {
+      background-color: #d6ffbe;
+      padding: 30px;
+      max-width: 600px;
+      margin: 0 auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .languages h2 {
+      margin-bottom: 30px;
+      color: #333;
+    }
+    
+    .language-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .language-list li {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+    }
+    
+    .language-name {
+      font-weight: bold;
+      color: #555;
+      flex: 1;
+    }
+    
+    .progress-bar {
+      background-color: #ddd;
+      border-radius: 8px;
+      height: 20px;
+      width: 60%;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .progress {
+      background-color: #4caf50;
+      border-radius: 8px;
+      color: #fff;
+      height: 100%;
+      text-align: center;
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+    }
+    
+    .skills {
+      background-color:#9db87f;
+      padding: 30px;
+      max-width: 600px;
+      margin: 0 auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .skills h2 {
+      margin-bottom: 30px;
+      color: #333;
+    }
+    
+    .skill-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .skill-list li {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+    }
+    
+    .skill-name {
+      font-weight: bold;
+      color: #555;
+      flex: 1;
+    }
+    
+    .progress-bar {
+      background-color: #9db87f;
+      border-radius: 8px;
+      height: 20px;
+      width: 60%;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .progress {
+      background-color: #4caf50;
+      border-radius: 8px;
+      color: #fff;
+      height: 100%;
+      text-align: center;
+      font-size: 14px;
+      line-height: 20px;
+      /* Display percentage number in the center of the progress bar */
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
